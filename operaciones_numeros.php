@@ -32,7 +32,7 @@ echo "Resultado: $raiz <br/>";
 echo"<br><b>6.- Convierte este número ($var1) en texto y añádele la cadena 'code' en la penúltima posición
 (ejemplo: \$var=341   Resultado: \$var=34code1)</b><br>";
 //Opcion1
-$num_array = str_split(strval(1816161851681));
+$num_array = str_split(strval($raiz));
 $num_array[count($num_array)-1] = "code".end($num_array);
 echo"Resultado: ".$resultado = implode("",$num_array);
 
